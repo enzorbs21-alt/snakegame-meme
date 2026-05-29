@@ -5,7 +5,7 @@ import random
 pygame.init()
 pygame.mixer.init() # Inicializa o módulo de áudio do Pygame
 
-pygame.display.set_caption("jogo da cobrita *")
+pygame.display.set_caption("jogo da cobrita ")
 largura, altura = 700, 600
 tela = pygame.display.set_mode((largura, altura))
 relogio = pygame.time.Clock()
